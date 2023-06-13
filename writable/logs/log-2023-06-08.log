@@ -1,0 +1,14 @@
+CRITICAL - 2023-06-08 17:04:53 --> Class "App\Models\TodoListModel" not found
+in APPPATH/Controllers/TodoListController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\TodoListController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ashleyjuan/CodeIgniter4-Todolist/public/index.php')
+CRITICAL - 2023-06-08 17:07:42 --> Class "App\Models\TodoListModel" not found
+in APPPATH/Controllers/TodoListController.php on line 22.
+ 1 SYSTEMPATH/CodeIgniter.php(906): App\Controllers\TodoListController->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH/CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('/Users/ashleyjuan/CodeIgniter4-Todolist/public/index.php')
